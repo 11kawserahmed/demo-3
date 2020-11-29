@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.continer{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+#mainHead{
+    background: #87509C;
+    width: 100%;
+    height: 600px;
+}
+
+.header-left{
+    display: inline-block;
+}
+
+.header-left img{
+    display: inline-block;
+    float: left;
+    margin: 55px 0px 0px 75px;
+}
+
+.header-right{
+    float: right;
+    margin-top: 60px;
+}
+
+.header-right ul{
+    list-style: none;
+}
+.header-right ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    transition: .3s;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header-right ul li:hover{
+    background: #643A79;
+    border-radius: 5px;
+}
+
+/*   -----------------header contant------- */
+
+.header-contant{}
+.header-contant p{
+    margin: 150px 0px 0px 232px;
+    font-size: 33px;
+    color: azure;
+    width: 635px;
+    font-weight: bold;
+}
+.header-contant button{
+    margin: 70px 435px;
+    padding: 13px 22px;
+    text-transform: uppercase;
+    background: #EB7D4B;
+    border: none;
+    color: azure;
+    border-radius: 5px;
+    border: 1px sloid #EB7D4B;
+    transition: 0.3s;
+}
+
+.header-contant button:hover{
+    cursor: pointer;
+    background:  #643A79;
+}
+
+
+/* ---------services---------- */
+
+#services{
+    width: 100%;
+    height: 750px;
+    background-color: #17C2A4;
+}
+
+.heading h2{margin: 115px 0px 0px 388px;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;}
+.heading p{
+    margin: 10px 0px 0px -15px;
+    color: white;
+    text-align: -webkit-center;
+} 
+
+table{
+    width: 100%;
+    margin: 180px 0px 0px 50px;
+    color: white;
+}
+
+.table tr{
+    width: 25%;
+}  
+table tr td img{
+    display: inline-block;
+    margin-left: 22px;
+}
+
+#team{
+    width: 100%;
+    height: 800px;
+    background-color: #E7F1F8;
+}
+
+.team-header{
+    display: inline-block;
+    margin: 100px 0px 0px 377px;
+}
+
+.team-header h2{
+    color: #878787;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.team-header p{
+    color: #878787;
+    width: 321px;
+    text-align: -webkit-center;
+}
+
+/* box1------------------- */
+
+.box1{
+    width: 250px;
+    padding: 0px 15px 0px 15px;
+    margin-top: 130px;
+    float: left;
+    margin-right: 25px;
+}
+
+.box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+
+.box1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 h6{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+   
+}
+.box1 p{
+    text-align: -webkit-center;
+    margin-top: 20px;
+    color: #878787;
+}
+/* ----------box2 ------------*/
+
+.box1{
+    width: 250px;
+    padding: 0px 15px 0px 15px;
+   
+    margin-top: 130px;
+    float: left;
+    margin-right: 25px;
+}
+
+.box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px;
+    
+}
+
+.box1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 h6{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+   
+}
+.box1 p{
+    text-align: -webkit-center;
+    margin-top: 20px;
+    color: #878787;
+}
+
+
+/* ----------box3 ------------*/
+
+.box1{
+    width: 250px;
+    padding: 0px 15px 0px 15px;
+   
+    margin-top: 130px;
+    float: left;
+    margin-right: 25px;
+}
+
+.box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+
+.box1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 h6{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+   
+}
+.box1 p{
+    text-align: -webkit-center;
+    margin-top: 20px;
+    color: #878787;
+}
+
+
+/* ----------box4 ------------*/
+
+
+.box1{
+    width: 250px;
+    padding: 0px 15px 0px 15px;
+    
+    margin-top: 130px;
+    float: left;
+    margin-right: 25px;
+}
+
+.box1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px;
+   
+}
+
+.box1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 h6{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+    
+}
+.box1 p{
+    text-align: -webkit-center;
+    margin-top: 20px;
+    color: #878787;
+}
+
+
+/* -----skills--- */
+/* -----skills--- */
+/* -----skills--- */
+/* -----skills--- */
+
+#skills{
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+}
+
+.demo h2{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    color: #3C4761;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+.demo p{
+    text-align: -webkit-center;
+    width: 445px;
+    margin: 20px 0px 20px 306px;
+    color: #878787;
+}
+
+.images img{
+    padding: 42px;
+    margin-top: 110px;
+}
+
+/* ------PORTFOLIO---- */
+/* ------PORTFOLIO---- */
+/* ------PORTFOLIO---- */
+/* ------PORTFOLIO---- */
+/* EBC985 */
+
+#portfolio{
+    width: 100%;
+    height: 1420px;
+    background-color: #FFDD99;
+}
+
+.portfolio-header h2{
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin: 100px 0px 20px 450px;
+    display: inline-block;
+}
+
+.portfolio-header p{
+    text-align: -webkit-center;
+    width: 500px;
+    margin: 0px 0px 20px 300px;
+}
+
+.portfolio-header .button-port{
+    text-align: center;
+}
+
+.portfolio-header .button-port button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 7px;
+    background-color: #EBC985;
+    transition: 0.3s;
+}
+
+.portfolio-header .button-port button:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.port-monitor1 {
+    margin: 130px 0px 230px 0px;
+    
+}
+
+.port-buttom{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.port-buttom button{
+    padding: 15px 25px;
+    border-style: none;
+    border-radius: 7px;
+    background:#17C2A4;
+    color: white;
+    box-shadow: 0px 2px #14A58C;
+    transition: 0.3s;
+
+}
+
+.port-buttom button:hover{
+    background-color: #14A58C;
+    cursor: pointer;
+}
+
+
+/* ------people comment---- */
+/* ------people comment---- */
+/* ------people comment---- */
+/* ------people comment---- */
+
+/* D74680 */
+#people{
+    width: 100%;
+    height: 900px;
+    background-color: #D74680;
+}
+
+.comment h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: 100px 0px 0px 350px;
+    display: inline-block;
+}
+
+.comment h5{
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 10px;
+}
+
+.table2{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.table2 table tr .td1{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%;
+    background: #787878; */
+}
+.table2 table tr .td1 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.table2 table tr .td3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.table2 table tr .td2{
+    width: 30%;
+}
+.table2 table tr .td4{
+    width: 30%;
+}
+.table2 table tr .td3{
+    width: 20%;
+}
+
+#upFooter{
+    background-color: #3C5499;
+    width: 100%;
+    height: 820px;
+}
+
+.uofooter-content h2{
+
+text-transform: uppercase;
+
+letter-spacing: 3px;
+
+display: inline-block;
+
+margin: 100px 0px 20px 440px;
+
+color: wheat;
+}
+
+.uofooter-content p{
+    
+text-align: center;
+    
+color: white;
+}
